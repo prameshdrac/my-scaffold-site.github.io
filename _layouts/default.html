@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.md">About</a></li>
+            <li><a href="/services.md">Services</a></li>
+            <li><a href="/blog.md">Blog</a></li>
+            <li><a href="/contact.md">Contact</a></li>
+            <li><a href="/portfolio.md">Portfolio</a></li>
+            <li><a href="/team.md">Team</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        &copy; {{ site.title }} {{ "now" | date: "%Y" }}
+    </footer>
+</body>
+</html>

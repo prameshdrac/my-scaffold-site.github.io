@@ -1,0 +1,60 @@
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav {
+    margin: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #00aaff;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
